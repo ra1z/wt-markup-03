@@ -17,7 +17,7 @@ ul {
 body {
     font-family: "Roboto" ;
     margin: 0px;
-    width: 1400px;
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,7 +32,7 @@ header .logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    margin-left: 115px;
+    margin-left: 215px;
 }
 
 .logo .color_logo {
@@ -87,7 +87,7 @@ header .logo {
 .order h1{
     color: #ffff;
     font-size: 44px;
-    font-weight: 600;
+    font-weight: 900;
     width: 1048px;
     text-align: center;
     text-transform: uppercase;
@@ -163,7 +163,7 @@ header .logo {
 }
 
 .example ul li img{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .our_team {
@@ -175,7 +175,7 @@ header .logo {
 
 .our_team h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .our_team .workers{
@@ -186,8 +186,8 @@ header .logo {
 
 .our_team .workers .worker{
     background-color: #FFFFFF;
-    width: 370px;
-    border-radius: 0 1 4px 4px;
+    width: 270px;
+    border-radius: 0 0 4px 4px;
     box-shadow: var(--card-shadow);
     margin-right: 30px;
     display: flex;
@@ -218,7 +218,7 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 11px;
+    margin: 0 0 15px;
     padding: 0;
 }
 
@@ -237,13 +237,13 @@ header .logo {
  footer {
     background-color: #2F303A;
     display: flex;
-    width: 2600px;
+    width: 1600px;
     height: 252px;
     align-items: center;
 }
 
 footer .info {
-    margin-left: 205px;
+    margin-left: 215px;
 }
 
 footer .social_medias{
