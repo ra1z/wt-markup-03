@@ -93,7 +93,17 @@ header .logo {
     text-transform: uppercase;
 }
 
-
+.order_button{
+    background-color: var(--blue_logo_color);
+    color: #ffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
 
 /* main section description */
 
@@ -244,94 +254,4 @@ footer .get_info{
     margin-left: 93px;
     display: flex;
     flex-direction: column;
-}
-
-footer .logo{
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    color: #FFFFFF;
-}
-
-footer address {
-    font-style: normal;
-    color: #FFFFFF;
-}
-
-footer address ul li a{
-    color: var(--text_grey_color);
-}
-
-footer h2 {
-    font-weight: 700;
-    color: #FFFFFF;
-}
-
-footer .social_media{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 15px;
-    padding: 0;
-}
-
-footer .social_media li {
-    margin-right: 10px;
-}
-
-footer .social_media li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    fill: #FFFFFF;
-    background-color: rgba(255, 255, 255, 10%);
-    border-radius: 100%;
-}
-
-footer .social_media li a:hover {
-    background-color: var(--blue_logo_color);
-} 
-
-footer form {
-    display: flex;
-}
-
-footer form label{
-    font-weight: 700;
-    font-style: normal;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-footer form label input{
-    background-color: #2F303A;
-    color: #FFFFFF;
-    border-color: rgba(255, 255, 255, 30%);
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-    width: 358px;
-    height: 50px;
-}
-
-footer form button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: #FFFFFF;
-    color: #FFFFFF;
-    border: 0px;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: var(--blue_logo_color);
-    cursor: pointer;
-    width: 200px;
-    height: 50px;
-    margin-left: 13px;
-}
-
-footer form button .image{
-    margin-left: 13px;
 }
